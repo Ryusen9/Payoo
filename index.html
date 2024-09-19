@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/payoo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Payoo(MFS)</title>
+  </head>
+  <body class="font-poppins">
+    <div class="min-h-screen flex justify-center items-center bg-cover bg-center bg-no-repeat" style="background-image: url(./assets/dddepth-311.jpg);">
+      <form class="backdrop-blur-lg py-5 px-5 flex flex-col gap-4">
+        <label for="mobileNum">Enter Your Mobile Number :</label>
+        <input class="input focus:border-none focus:outline-none" style="::-webkit-outer-spin-button, ::-webkit-inner-spin-button { appearance: none; margin: 0; }" type="number" name="MobileNumber" id="mobileNum">
+        <label for="inputPin">Enter Your Pin Here :</label>
+        <input type="number" class="input" name="pinInputBox" id="inputPin">
+        <p class="text-sm text-gray-400">Your pin must be in 4 digit.</p>
+        <button class="btn w-24 mx-auto bg-emerald-500 hover:bg-emerald-600 text-white duration-150" id="submitBtn">Submit</button>
+      </form>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
