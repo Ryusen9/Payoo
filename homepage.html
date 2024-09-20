@@ -8,7 +8,23 @@
     <title>Payoo(MFS)</title>
 </head>
 <body class="font-poppins">
-    
+    <header class="mb-7">
+        <div class="header-container flex justify-between gap-5 px-5 md:px-16 lg:px-20">    
+            <div class="logo-container"><img src="./assets/payoo.png" class="w-16" alt="payoologo"></div>
+            <div class="avatar-container pt-4">
+                <img class="inline-block size-[46px] rounded-full" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80" alt="Avatar">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="amount-container flex justify-center items-center gap-3">
+                <input id="available-amount" type="text" class="input input-disabled" disabled>
+                <button id="add-fund" class="btn bg-emerald-400 hover:bg-emerald-600 text-white">Add Fund</button>
+            </div>
+        </section>
+    </main>
     <script src="main.js"></script>
+    <script src="./homapage.js"></script>
 </body>
 </html>
