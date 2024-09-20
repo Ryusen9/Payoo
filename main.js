@@ -14,11 +14,9 @@ submitBtn.addEventListener('click', function(event){
         alert("Please enter your phone number and pin")
     } else if (getMobileNum().length < 11) {
         alert("Number must be 11 digit")
-    } else if (getMobileNum().length > 11 && getPinNum().length > 4) {
+    } else if (getMobileNum().length > 11 || getPinNum().length > 4) {
         alert("Phone number must be 11 digits and pin number must be 4 digits")
     } else if ((getMobileNum().length = 11) && (getPinNum().length = 4)) {
         window.location.href = '/homepage.html'
     }
-    console.log(getMobileNum());
 })
-
